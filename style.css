@@ -1,0 +1,114 @@
+.bg-light-yellow { background-color: #ffcc69; }
+.bg-purple { background-color: #7c3aed; color: white; }
+.bg-light-purple { background-color: #ede9fe; }
+.bg-light-orange { background-color: #fde68a; }
+.card-custom { min-height: 250px; display: flex; align-items: center; justify-content: center; text-align: center; padding: 1rem; }
+.small-text { font-size: 0.9rem; color: #6b7280; }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: #f5f5f5;
+}
+.container{
+    padding-top: 5rem; 
+}
+.card{
+    border-style: none;
+}
+.card-1{
+    background-color: #faeee2;
+    padding: 70px 30px;
+    padding-left: 35px;
+    text-align: left; 
+}
+.card-2{
+    height: 350px;
+    width: 550px;
+    /* box-sizing: content-box; */
+}
+.card-2 h2{
+    font-size: 60px;
+}
+.card-2 p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+  .card-3 {
+    background-color: #dcd1fc;
+    overflow: hidden; 
+    text-align: left;
+  }
+  .card-3 h3 {
+    padding: 15px;
+    font-weight: bolder;
+  }
+  .card-3 img {
+    width: 300px;
+    height: 350px;
+    margin-left: 80px;
+  }
+  
+  .card-3 .small-text {
+    font-size: 18px;
+    color: #555;
+    font-weight: bolder;
+    padding: 10px 20px 0px 20px;
+    /* padding-bottom: 0px; */
+  }
+
+.card-4 {
+    overflow: hidden;
+    text-align: left;
+  }
+  .card4-img{
+    position: absolute;
+    left: 10%;
+    top: 20px;
+    width: 320px;
+    height: 70px;
+  }
+  #card4-h5{
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 10px;
+    line-height: 1;
+    padding-top: 90px;
+  }
+  #card5-h5{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 0.8;
+    padding: 0 15px;
+    margin-top: -40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #card5-img{
+    position: absolute;
+    top: 62%;
+    width: 80%;
+  }
+  .card-6{
+    text-align: left;
+  }
+  #card6-h5{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 0.8;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 0 15px 0 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #card8-h5 h5{
+    text-align: left;
+    font-size: 40px;
+  }
+
+  @media (min-width: 992px) {
+    .move-up {
+      margin-top: -246px; /* Move up only on large screens */
+      margin-right: -565px;
+    }
+  }
+  
